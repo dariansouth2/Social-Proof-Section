@@ -1,0 +1,62 @@
+:root{
+    --primary-very-dark-magenta: hsl(300, 43%, 22%);
+    --primary-soft-pink:hsl(333, 80%, 67%);
+    --neutral-dark-grayish-magenta: hsl(303, 10%, 53%);
+    --neutral-light-grayish-magenta: hsl(300, 24%, 96%);
+    --neutral-white:hsl(0, 0%, 100%);
+}
+*{
+    font-family: 'League Spartan', sans-serif;
+}
+
+    .hero{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.hero h1{
+    align-items: center;
+    color: var(--primary-very-dark-magenta);
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+
+}
+.hero p{
+    color: var(--neutral-dark-grayish-magenta);
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.rates{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+.rate-card{
+    background-color: var(--neutral-light-grayish-magenta);
+    color: var(--primary-very-dark-magenta);
+    border-radius: 1.5em;
+    padding: 1rem;
+}
+.testimony{
+    padding-top: 3em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.3em;
+}
+.testimony-card{
+    background-color: var(--primary-very-dark-magenta);
+    color: var(--neutral-white);
+    padding: 1.75rem;
+    border-radius: 1.5em;
+}
+.buyer{
+    color: var(--neutral-white);
+    padding: 1rem;
+}
+.buyer span{
+    color: var(--primary-soft-pink);
+}
+.buyer img{
+    border-radius: 50%;
+}
